@@ -3,7 +3,7 @@ int main()
 {
 	int l,u,i,j;
 	scanf("%d %d",&l,&u);
-	for(i=l;i<=u;i++)
+	for(i=l+1;i<u;i++)
 	{
 		if(i%2!=0)
 		{
